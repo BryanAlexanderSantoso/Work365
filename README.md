@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Work365 - NGACENG? PUSH UP! 🚀
 
-## Getting Started
 
-First, run the development server:
+![Banner](https://github.com/user-attachments/assets/your-banner-id-here) 
+> *Note: Ganti link di atas pake image banner yang udah di-generate tadi ya!*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Yo, welcome to **Work365**! 🔥 Aplikasi fitness paling *slay* buat nemenin perjalanan 365 hari lu jadi versi terbaik. No more excuses, just pure consistency, fr fr. 💯
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Apa yang Bikin Work365 "Different"?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Kalo aplikasi lain cuma buat catet angka, kita mah beda level. Cek fitur premium kita:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **📸 AI Food Vision (No Cap!):** Males ngetik kalori? Cukup foto makanan lu, AI bakal deteksi makronya secara instan lewat Google Vision. *Life changer banget!* 🍔
+*   **🏃‍♂️ Real-time GPS Tracker:** Lari lu bakal terekam dengan estetik di Google Maps lengkap dengan pace, distance, dan elevation. *Auto-flex ke socmed!* 📍
+*   **⚡ AI Text Shortcut:** Gak sempet foto? Tinggal ketik "Nasi goreng pake telor 2", AI kita langsung ngitungin gizinya. *Sat-set anti ribet!* ✍️
+*   **📊 Premium Dashboard:** Monitoring progres harian lu pake UI yang *clean* dan *visualize* yang memanjakan mata.
+*   **🗓️ 365 Roadmap:** Visualisasi perjalanan transformasi lu dari Day 1 sampe Day 365. *Main character vibes!*
 
-## Learn More
+## 🛠️ Tech Stack (The "Big Flex")
 
-To learn more about Next.js, take a look at the following resources:
+Kita pake teknologi paling *update* biar aplikasi gak gampang *mental* (oops):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   **Frontend:** Next.js 15 (App Router) + TypeScript
+*   **Styling:** Tailwind CSS + Shadcn/UI (Visualnya premium, no debat!)
+*   **Animations:** Framer Motion (Biar transisinya smooth kayak jalan ninja kamu)
+*   **Backend:** Supabase (Auth & Database paling gercep)
+*   **AI Power:** Google Cloud Vision & Gemini API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Cara Gaspol (Setup)
 
-## Deploy on Vercel
+Gak pake ribet, gini cara instalnya di lokal:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone repo ini:**
+    ```bash
+    git clone [link-repo-lu]
+    ```
+2.  **Instal dependensi:**
+    ```bash
+    npm install
+    ```
+3.  **Setup Environment:**
+    Buat file `.env.local` dan masukin kunci rahasia lu:
+    ```env
+    NEXT_PUBLIC_SUPABASE_URL=your_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+    ```
+4.  **Database Migration:**
+    Copy isi `schema.sql` ke SQL Editor di Supabase. *Wajib biar gak error!*
+5.  **Run it!:**
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Mobile First Energy
+Aplikasi ini *responsive* parah. Cocok banget dipake di HP pas lu lagi di gym atau lagi marathon. 📱✨
+
+---
+
+**Built with ❤️ and pure determination.**
+Kalo lu suka project ini, jangan lupa kasih ⭐ ya, *no cap*!
+
+#Work365 #FitnessGlowUp #GenZTech #SlayTheDay
