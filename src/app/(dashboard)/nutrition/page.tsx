@@ -106,12 +106,13 @@ export default function NutritionPage() {
                     return;
                 }
 
+                const data = result as any;
                 setCustomFood({
-                    name: result.name || "",
-                    calories: String(result.calories || 0),
-                    protein: String(result.protein || 0),
-                    carbs: String(result.carbs || 0),
-                    fats: String(result.fats || 0)
+                    name: data.name || "",
+                    calories: String(data.calories || 0),
+                    protein: String(data.protein || 0),
+                    carbs: String(data.carbs || 0),
+                    fats: String(data.fats || 0)
                 });
             } catch (error: any) {
                 console.error("AI Error:", error);
@@ -133,12 +134,13 @@ export default function NutritionPage() {
         try {
             const result = await analyzeFoodText(aiQuery, geminiKey);
             if (result) {
+                const data = result as any;
                 setCustomFood({
-                    name: result.name || "",
-                    calories: String(result.calories || 0),
-                    protein: String(result.protein || 0),
-                    carbs: String(result.carbs || 0),
-                    fats: String(result.fats || 0)
+                    name: data.name || "",
+                    calories: String(data.calories || 0),
+                    protein: String(data.protein || 0),
+                    carbs: String(data.carbs || 0),
+                    fats: String(data.fats || 0)
                 });
                 setAiQuery("");
             }
