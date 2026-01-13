@@ -8,7 +8,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase)
 ![Google Maps](https://img.shields.io/badge/Google%20Maps-API-4285F4?style=for-the-badge&logo=google-maps)
 
-**The Ultimate Fitness & Transformation Tracking App with "Liquid Glass" Visuals**
+**The Ultimate Fitness & Transformation Tracking App with Cool Visuals**
 
 [Demo](#demo) • [Fitur](#fitur) • [Teknologi](#teknologi) • [Instalasi](#instalasi) • [Kontributor](#kontributor)
 
@@ -18,7 +18,7 @@
 
 ## 📖 Tentang
 
-**Work365** adalah aplikasi navigasi transformasi fisik komprehensif yang dirancang untuk menemani perjalanan 365 hari Anda menuju versi terbaik diri. Dibangun dengan antarmuka modern bergaya *Liquid Glass UI*, aplikasi ini menggabungkan pelacakan latihan, nutrisi cerdas berbasis AI, dan pemantauan aktivitas lari real-time.
+**Work365** adalah aplikasi navigasi transformasi fisik komprehensif yang dirancang untuk menemani perjalanan 365 hari Anda menuju versi terbaik diri. Dibangun dengan antarmuka modern bergaya *Cool UI*, aplikasi ini menggabungkan pelacakan latihan, nutrisi cerdas berbasis AI, dan pemantauan aktivitas lari real-time.
 
 ---
 
